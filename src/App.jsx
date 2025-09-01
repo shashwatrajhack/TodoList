@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter base='/TodoList/'>
       <TodoProvider>
         <Navbar />
         <Routes>
